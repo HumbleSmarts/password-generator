@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generator {
+
+    background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(245, 244, 244, 0.863);
+    padding: 30px;
+}
+
+.generator__header {
+    text-align: center;
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+.generator__password {
+    background-color: #308D46;
+    padding: 13px 10px;
+    color: #fff;
+    margin-bottom: 15px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy__btn {
+    color: #39042f;
+    background: #e1e3e2;
+    border: none;
+    cursor: pointer;
+}
+
+.generator__btn {
+    background: #308D46;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    color: gre;
+    margin-bottom: 15px;
+}
