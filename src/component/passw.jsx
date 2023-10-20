@@ -95,7 +95,7 @@ const Passw = () => {
           <div className="generator__password">
             <h3>{password}</h3>
             <button className="copy__btn" onClick={handleCopyPassword}>
-              <i class="fa fa-clipboard" aria-hidden="true"></i>
+              <i class="BiClipboard" aria-hidden="true"></i>
             </button>
           </div>
           <div className="form-group">
